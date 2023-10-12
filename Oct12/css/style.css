@@ -1,0 +1,43 @@
+body{
+    /* 背景颜色 */
+    background-color: #333;
+}
+
+h1{
+    /* h1高度 */
+    height: 52px;
+    /* 垂直居中 */
+    line-height: 52px;
+    /* 水平居中 */
+    text-align: center;
+    /* 背景颜色 */
+    background-color: #093;
+    /* 文字颜色 */
+    color: #fff;
+    letter-spacing: 30px;
+}
+
+.fenlei{
+    /* 字体颜色 */
+    color: #fff;
+    /* 字体大小 */
+    font-size: 14px;
+    /* 右对齐 */
+    text-align: right;
+    /* 字体样式*/
+    font-family: "华文新魏";
+    /* 加粗 */
+    font-weight: bold;
+
+}
+
+.biaoti{
+    color: #093;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.neirong{
+    color: #fff;
+    font-size: 14px;
+}

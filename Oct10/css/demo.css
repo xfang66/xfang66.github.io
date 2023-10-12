@@ -1,0 +1,68 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url('a.ttf');
+}
+
+
+/*通配符选择器*/
+*{
+	font-family: myFirstFont;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*标记选择器*/
+div{
+	background-color: aliceblue;
+	margin: 40px auto;
+}
+
+/*类选择器*/
+.one{
+	color: red;
+	font-size: 40px;
+}
+
+/*id选择器*/
+#two{
+	color: cadetblue;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+/*标签指定式选择器/交集选择器*/
+div#three{
+	color: #EA8FE6 ;
+	font-size: 30px;
+}
+
+
+
+
+/*后代选择器*/
+#four p{
+	color: #E83D9D;
+	
+}
+
+/*子代应该在后代下面不然会被后代覆盖*/
+
+/*子代选择器*/
+#four>p{
+	color: #2EF375 ;
+	font-size: 25px;
+}
+
+
+
+/*并集选择器*/
+.one,#two,#three,#four,#five{
+	text-align: center;
+	border-radius: 25px;
+    border: 2px solid #5E57B5 ;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-image: linear-gradient(#BDB8F9, #68FBF0 );
+}

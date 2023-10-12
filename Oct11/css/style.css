@@ -1,0 +1,35 @@
+    body {
+        background-color: #f1f1f1;
+    }
+
+
+    h1 {
+        height: 50px;
+        line-height: 50px;
+        background-color: #81b033;
+        color: #ffffff;
+        font-size: 25px;
+        text-indent: 10px;
+        letter-spacing: 25px;
+    }
+
+    h2 {
+        color: #333;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 12px;
+        text-indent: 2em;
+        line-height: 36px;
+    }
+
+    #color {
+        color: #960;
+    }
+
+    #yuedu {
+        text-align: right;
+    }
