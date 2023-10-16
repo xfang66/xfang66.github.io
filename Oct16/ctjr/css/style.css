@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #d8c7b4;
+}
+
+/* 居中 */
+.juzhong{
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.leftimg{
+    float: right;
+}
+
+.rightimg{
+    float: left;
+}

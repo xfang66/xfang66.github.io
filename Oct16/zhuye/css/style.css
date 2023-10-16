@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/bj.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    height: 47px;
+    line-height: 47px;
+    background: #ffae00;
+    text-align: center;
+    font-size: 34px;
+}
+
+#directory p{
+    text-align: center;
+    color: #414039;
+    font-size: 17px;
+}
+
+#directory a{
+    color: #ffae00;
+}
+
+h2{
+    font-size: 18px;
+}
+div p{
+    font-size: 15px;
+}
+#image{
+    height: 400px;
+    width: auto;
+    border-style:dotted;
+    padding: 5px;
+}
+
+#image img{
+    width: 200px;
+}

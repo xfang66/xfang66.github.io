@@ -1,0 +1,32 @@
+ /* 大字中 */
+ #zhong{
+    float: left;
+    font-size: 57px;
+    line-height: 57px;
+    color: #59340a;
+}
+
+/* 节日小标题 */
+#chunjie,#qingming,#zhongqiu,#chongyang,#yuanxiao,#duanwu{
+    font-size: 18px;
+    line-height: 60px;
+    color: #59340a;
+    text-decoration: underline;
+}
+
+/* 清明，重阳，端午，右对齐 */
+#qingming,#chongyang,#duanwu{
+    text-align: right;
+ 
+}
+
+.se{
+    color: #930
+}
+
+/* 字体大小、行高 */
+p{
+    font-size: 13px;
+    line-height: 15px;
+}
+
