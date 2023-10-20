@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    width: 1190px;
+    margin: 160px auto;
+    overflow: hidden;
+    background: #00000010;
+}
+
+.box>div{
+   background-color: #a399af;
+}
+.a,.d{
+    width: 190px;
+    height:470px;
+}
+
+
+.b{
+    width: 590px;
+    height:470px;
+}
+
+
+.a,.b,.c,.d{
+    margin-right: 10px;
+    float: left;
+}
+
+.box>.c{
+    background-color: #00000010;
+}
+.c div {
+    width: 190px;
+    height: 150px;
+    background-color: #a399af;
+}
+
+#c_2{
+    margin: 10px 0px;
+}

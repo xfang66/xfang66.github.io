@@ -1,0 +1,46 @@
+.box3{
+    overflow: hidden;
+}
+.box3 div div{
+    box-shadow: 0px 0px 1px 1px #e9e9e9 ;
+}
+.box31{
+    width: 260px;
+    height: 1279px;
+    margin-right: 10px;
+    float: left;
+}
+.box311{
+    width: 258px;
+    height: 302px;
+    border: 1px #cfd1d4 solid;
+}
+.box312{
+    height: 169px;
+    margin: 10px 0px;
+}
+.box313{
+    height: 782px;
+}
+.box32{
+    width: 900px;
+    height: 1279px;
+    float: left;
+}
+.box321{
+    width: 898px;
+    border: 1px #cfd1d4 solid;
+    height: 198px;
+    margin-bottom: 10px;
+}
+.box322{
+    height: 219px;
+    margin-bottom: 32px;
+}
+.box323{
+    height: 726px;
+}
+.box324{
+    height: 76px;
+    margin-bottom: 0px;
+}

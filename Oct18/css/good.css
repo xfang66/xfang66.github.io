@@ -1,0 +1,30 @@
+.good{
+    width: 1190px;
+    margin: 50px auto;
+    overflow: hidden;
+    background: #00000010;
+}
+
+.good>div{
+    width: 290px;
+    height: 560px;
+    margin-right: 10px;
+    float: left;
+}
+
+#a1_1,#a2_1{
+    width: 290px;
+    height: 370px;
+    margin-bottom: 10px;
+    background-color: rgb(196, 196, 235);
+}
+
+#a1_2,#a2_2,#a3_1,#a3_2,#a3_3,#a4_1,#a4_2,#a4_3{
+    width: 290px;
+    height: 180px;
+    background-color: #e4c7dd;
+}
+
+#a3_2,#a4_2{
+    margin: 10px 0px;
+}

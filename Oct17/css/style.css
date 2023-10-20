@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #000;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    background-image: url(../img/bg-0646.gif);
+    height: 100px;
+    line-height: 130px;
+}
+
+div{
+    width: 1000px;
+    margin: 30px auto;
+    border-top: 2px #eee solid;
+    padding-top: 15px;
+}
+p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 2em;
+    margin-bottom: 14px;
+}
+
+img{
+    border: 4px #f90 solid;
+    margin: 4px;
+}
+#img1,#img3{
+    float: left;
+}
+
+#img2{
+    float: right;
+}

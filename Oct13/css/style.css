@@ -1,0 +1,24 @@
+em em{
+    color: green
+}
+
+#red{
+    color: red;
+}
+
+#bg{
+    /* 宽 */
+    width: 500px;
+    /* 高 */
+    height: 500px;
+    /* 背景图片 */
+    background-image: url(../img/bg.png);
+    /* 任意背景色 */
+    background-color: aqua;
+    /* 不重复 */
+    background-repeat: no-repeat;
+    /* 背景大小 */
+    background-size: 70%;
+    /* 左上角对齐 */
+    background-position: top left;
+}
