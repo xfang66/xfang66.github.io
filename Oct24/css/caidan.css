@@ -1,0 +1,117 @@
+.box{
+    width: 1000px;
+    height: 71px;
+    margin: 50px auto;
+}
+
+.box .boxa{
+    overflow: hidden;
+    width: 1000px;
+    height: 38px;
+    
+}
+
+.box .boxa ul li{
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    float: left;
+
+    border-top: 1px solid #c9cbce;
+    border-bottom: 1px solid #54b82a;
+    border-right: 1px dotted #c9cbce;
+
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    padding-left: 35px; 
+    background-position: 7px 9px;
+}
+
+.box .boxa ul li:hover{
+    background-color: #d9dad8;
+    border-bottom: #7a7a7a 1px solid;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.box .boxa ul .boxa_1{
+    border-top: 2px solid #54b82a;
+    border-left: 1px solid #54b82a;
+    border-right: 1px solid #54b82a;
+    border-bottom: none;
+    background-color: #f8fff5;
+}
+.box .boxa ul .boxa_1:hover{
+    background-color: #fff;
+}
+.box .boxa ul .boxa_2{
+    background-position: 7px -28px;
+}
+.box .boxa ul .boxa_3{
+    background-position: 7px -66px;
+}
+.box .boxa ul .boxa_4{
+    background-position: 7px -108px;
+}
+.box .boxa ul .boxa_5{
+    background-position: 7px -148px;
+}
+.box .boxa ul .boxa_6{
+    background-position: 7px -188px;
+}
+.box .boxa ul .boxa_7{
+    background-position: 7px -230px;
+}
+.box .boxa ul .boxa_8{
+    background-position: 7px -268px;
+}
+.box .boxa ul .boxa_9{
+    background-position: 7px -312px;
+}
+.box .boxa ul .boxa_10{
+    width: 27px;
+    height: 36px;
+    padding-left: 0px; 
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: -36px 1px;
+    background-size: auto 36px;
+    
+}.box .boxa ul .boxa_11{
+    width: 16px;
+    height: 36px;
+    padding-left: 0px;
+    background-image: url(../img/bg3.png);
+    background-repeat: no-repeat;
+    background-position: 5px 15px;
+}
+
+
+.boxb{
+    width: 998px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    border-right:1px solid #54b82a ;
+    border-left: 1px solid #54b82a;
+    border-bottom: 1px solid #54b82a;
+    background-color: #f8fff5;
+}
+
+.boxb li{
+    float: left;
+}
+
+.boxb li a{
+    font-size: 14px;
+    padding:0px 17px;
+}
+
+.boxb li a:hover{
+    text-decoration: underline;
+    color: red;
+}

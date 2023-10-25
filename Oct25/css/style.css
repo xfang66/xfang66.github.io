@@ -1,0 +1,113 @@
+body{
+    background-color: #f2f2f2;
+}
+
+.box{
+    width: 1200px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.box>div{
+    float: left;
+    border-radius: 5px;
+}
+
+.boxa{
+    background-color: #fff;
+    width: 220px;
+    height: 354px;
+    color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boxa ul li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.boxa ul li .iconfont{
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.boxa ul li:hover{
+    background: #f7d9c3;
+    color: #fea86a;
+}
+.boxa ul li:hover a,.boxa ul li:hover span{
+    color: red;
+}
+
+
+.boxa ul li a{
+    color: #333;
+    font-size: 14px;
+}
+.boxa ul  li a:hover{
+    text-decoration: underline;
+}
+
+.boxb{
+    width: 600px;
+    height: 384px;
+    margin: 0px 16px;
+}
+
+.boxb .boxb1{
+    width: 100%;
+    height: 256px;
+    background-color: #fff;
+    background-image: url(../img/albb.avif);
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.boxb .boxb2{
+    width: 100%;
+    height: 112px;
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.boxc{
+    height: 384px;
+    width: 348px;
+    background-color: #fff;
+}
+
+.boxc1{
+    height: 132px;
+    width: 348px;
+    background-color: #f1e4db;
+    overflow: hidden;
+}
+
+.boxc .boxc1 .boxc1a{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(../img/icon.png);
+    background-size: 100%;
+    margin: 25px 20px;
+    float: left;
+}
+
+.boxc .boxc1 .boxc1b p{
+    float: left;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    padding-left:10px ;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #f9aa79;
+    border-radius: 50px;
+    color: red;
+    font-weight: bold;
+}
