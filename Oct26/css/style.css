@@ -1,0 +1,174 @@
+.box{
+    width: 100%;
+    height: 580px;
+    margin-top: 70px;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxa{
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.boxb{
+    margin-top: 80px;
+    margin-left: 780px;
+    width: 420px;
+    height: 419px;
+    background-color: white;
+    border-radius: 5px;
+    float: right;
+    overflow: hidden;
+}
+
+.boxc{
+    width: 300px;
+    margin: 40px auto;
+}
+.one{
+    margin-bottom:30px ;
+}
+.one .wenben{
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.one .wenben .a1{
+    font-size: 20px;
+    color: #e96f6a;
+    text-decoration: underline;
+}
+
+.one .wenben .a2{
+    margin: 0px 10px;
+}
+
+.one .wenben .a3{
+    color: #333;
+}
+.one .wenben .a3:hover{
+    color: #e96f6a;
+}
+
+.two .phone{
+    width: 298px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 13px;
+    text-indent: 10px;
+}
+
+.two .phone:focus{
+    outline: #ed6964 1px solid;
+}
+
+.three{
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 3px;
+}
+
+
+
+.three .yzm{
+    width: 178px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    text-indent: 10px;
+    float: left;
+}
+
+.three .hq{
+    width: 120px;
+    height: 42px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    background-color: #fafafa;
+    color: #ed4e60;
+    float: left;
+}
+
+.three .yzm:focus{
+    outline-color: #e96f6a;
+}
+
+.four .denglu{
+    width: 300px;
+    height: 42px;
+    font-size: 18px;
+    color: white;
+    background-color: #ed6964;
+    border-left: 1px solid #ed6964;
+    border-right: 1px solid #ed6964;
+    border-top: 1px solid #be7d7b;
+    border-bottom: 1px solid #be7d7b;
+    border-radius: 3px;
+}
+
+.five{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.five .zc{
+    float: left;
+    color: #65717f;
+}
+.five .zh{
+    float: right;
+    color: #65717f;
+}
+
+.six{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+}
+
+.seven{
+    text-align: center;
+    font-size: 30px;
+}
+
+.seven .icon{
+    border: 1px #e3e3e3 solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.seven .wx{
+    margin: 0px 40px;
+}
+
+.boxa .laiyuan{
+    height: 28px;
+    width: 300px;
+    margin-top: 10px;
+    float: right;
+}
+
+.boxa .laiyuan p{
+    line-height: 28px;
+    width: 170px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    background: #46454550;
+    padding: 3px 8px;
+    border-radius: 50px;
+}
