@@ -1,0 +1,115 @@
+
+/* 第四块 */
+.four{
+    background-color: #f3f3f3ff;
+    height: 333px;
+    width: 100%;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+
+/* 网站主体 */
+.four .four_box{
+    width: 962px;
+    height: 333px;
+    margin: 0px auto;
+    background: url(../img/web_06.png) no-repeat center;
+}
+
+
+/* 分盒子设置 */
+.four .four_box ol li{
+    float: left;
+    height: 100%;
+}
+
+
+/* 标题设置 */
+.four .four_box ol li .four_biaoti{
+    height: 78px;
+    line-height: 78px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #4d191d;
+}
+
+.four .four_box ol li .four_biaoti span{
+    font-size: 12px;
+    font-family: “微软雅黑”;
+    color: #5f2024;
+    margin-left: 10px;
+}
+
+
+/* 第一个盒子 */
+.four .four_box .four_01{
+    width: 300px;
+}
+
+.four .four_box .four_01 .four_wenzi{
+    font-size: 12px;
+    line-height: 32px;
+    color: #79282e;
+    line-height: 32px;
+}
+
+.four .four_box .four_01 .four_wenzi a{
+    color: #247679;
+}
+
+.four .four_box .four_01 img{
+    float: left;
+    margin-right: 16px;
+    
+}
+
+/* 第二个盒子 */
+.four .four_box .four_02{
+    width: 350px;
+    margin-right: 47px;
+    margin-left: 40px;
+}
+
+
+/* +more */
+.four .four_box .four_02 .four_biaoti .four_more{
+    float: right;
+    width: 53px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #247679;
+    margin-top: 32px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* 图片 */
+.four .four_box .four_02 .four_xiangkuang{
+    display: block;
+    height: 181px;
+}
+
+
+.four .four_box .four_02 p{
+    height: 29px;
+    line-height: 29px;
+    background-color: #79282e;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 14px;
+}
+
+
+/* 第三个盒子 */
+.four .four_box .four_03{
+    width: 225px;
+    font-size: 12px;
+    line-height: 32px;
+    color: #79282e;
+}
+
+.four .four_box .four_03 .shangbiao{
+    float: right;
+    margin-right: 30px;
+}

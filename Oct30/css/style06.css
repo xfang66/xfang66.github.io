@@ -1,0 +1,46 @@
+.six{
+    height: 85px;
+    background-color: #4d191d;
+    overflow: hidden;
+}
+
+.six_box{
+    width: 962px;
+    height: 50px;
+    margin: 0px auto;
+    margin-top: 19px;
+}
+
+.six_box img{
+    float: left;
+    margin-right: 17px;
+}
+
+.six_box .six01{
+    float: left;
+}
+
+.six_box .six01 p,.six_box .six01 .six02{
+    height: 25px;
+    line-height: 25px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+
+.six_box .six01 a{
+    color: #b7b7b7;
+}
+
+.six_box .six01 span{
+    margin: 0px 9px;
+}
+
+.six_box .six03{
+    width: 120px;
+    float: right;
+    height: 50px;
+    line-height: 25px;
+    color: #b7b7b7;
+    font-size: 12px;
+    text-align: right;
+}

@@ -1,0 +1,183 @@
+/* 第五块 */
+.five{
+    height: 337px;
+    background-color: #f9f9f9ff;
+}
+
+/* 网站主体 */
+.five .five_box{
+    width: 962px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+/* 浮动横向对齐 */
+.five_box>div{
+    float: left;
+}
+
+/* 设置表单区域大小 */
+.five_box .five_form{
+    width: 338px;
+    margin-top: 29px;
+    margin-right: 46px;
+}
+
+
+/* 表单第一行*/
+.five_form01{
+    padding-bottom: 7px;
+    border-bottom: 1px solid #c7c7c7;
+    margin-bottom: 20px;
+}
+
+
+/* 理财计算器 */
+.five_form01 a:first-child{
+    display: inline-block;
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #85353b;
+    color: #fff;
+    margin-left: 4px;
+    border-radius: 5px;
+}
+
+/* 融资计算器 */
+.five_form01 a{
+    font-size: 14px;
+    color: #5f2024;
+    margin-left: 16px;
+}
+
+
+/* 理财金额 理财时间 */
+.five_form02,.five_form03{
+    height: 37px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+
+/* 文本框 */
+.five_form02 input{
+    height: 31px;
+    width: 209px;
+    text-indent: 18px;
+    margin: 0px 12px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+}
+
+
+/* 没字的文本框 */
+.five_form .five_form03 input{
+    float: left;
+    width: 153px;
+    height: 31px;
+    margin-left: 16px;
+    border: 1px solid #dadada;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.five_form .five_form03 span{
+    float: left;
+}
+
+/* 个月 */
+.five_form .five_form03 span:last-child{
+    height: 31px;
+    text-align: center;
+    color: black;
+    width: 57px;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+/* 红色提示小字 */
+.five_form .five_form04{
+    font-size: 12px;
+    color: #5f2024;
+    padding-bottom: 20px;
+    border-bottom: 1px #dadada dashed;
+}
+
+
+/* 表单提交按钮 */
+.five_form .five_form05{
+    display: block;
+    height: 34px;
+    width: 182px;
+    border-radius: 3px;
+    margin: 17px auto 0px;
+    border: 1px #5d999b solid;
+    background-color: #247679;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* 设置公示区域 */
+.five_box .five_gongshi{
+width: 566px;
+margin-top: 35px;
+}
+
+
+/* 公示标题 */
+.five_box .five_gongshi .five_gongshi_biaoti{
+font-size: 18px;
+font-family: Arial;
+color: #4d191d;
+
+border-bottom: 1px solid #c7c7c7;
+padding-bottom: 8px;
+}
+
+/* 标题小字 */
+.five_box .five_gongshi .five_gongshi_biaoti span{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    margin-left: 6px;
+    color: #5f2024;
+}
+
+.five_box .five_gongshi .five_gongshi_biaoti a{
+    float: right;
+    width: 53px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #247679;
+    font-size: 14px;
+    text-align: center;
+}
+
+.five_box .five_gongshi ol li{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px #dadada dashed;
+
+    color: #7b7b7b;
+    font-size: 12px;
+    text-indent: 19px;
+    background: url(../img/dian.png) no-repeat 4px 11px;
+}
+
+.five_box .five_gongshi ol li a{
+    float: left;
+    width: 423px;
+    margin-right: 45px;
+    color: #7b7b7b;
+
+    white-space: nowarp;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

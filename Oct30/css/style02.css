@@ -1,0 +1,38 @@
+.two{
+    width: 100%;
+    height: 40px;
+    background-color: #79282e
+}
+
+.two .two_box{
+    width: 962px;
+    height: 40px;
+    margin: 0px auto;
+}
+
+.two .two_box ol li{
+    width: 86px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.two .two_box ol .shouye_end{
+    margin-right: 0px;
+}
+
+.two .two_box ol li a{
+    color: white;
+    display: block;
+}
+
+.two .two_box ol .shouye{
+    margin-left: 28px;
+}
+
+.two .two_box ol li:hover{
+    background: #4d191d;
+}
