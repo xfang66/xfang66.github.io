@@ -78,8 +78,12 @@
     position: absolute;
     top: 8px;
     right: 65px;
+    color: #999;
 }
 
+.box .sou form .xiangji:hover{
+    color: red
+}
 
 /* 提交按钮 */
 .sou form input:nth-child(3) {
