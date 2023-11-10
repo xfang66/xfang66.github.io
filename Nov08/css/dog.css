@@ -1,0 +1,202 @@
+/* 全屏 */
+.dog {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 居中框 */
+.dog .box {
+    width: 790px;
+    height: 140px;
+    margin: 0px auto;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+/* 京狗*/
+.dog .box::before {
+    content: "";
+    cursor: pointer;
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    top: 5px;
+    left: -200px;
+    background: url(../img/dog.jpg) no-repeat;
+    background-size: 200px;
+}
+
+/* 双11 */
+.dog .box::after {
+    content: "";
+    cursor: pointer;
+    width: 200px;
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    background: url(../img/dog1111.png) no-repeat;
+    background-size: 200px;
+}
+
+/* 第一个横向框 */
+.box>div {
+    width: 790px;
+    height: 61px;
+}
+
+/* 搜索区域 */
+.sou {
+    margin-top: 25px;
+    margin-left: 60px;
+    width: 550px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+
+/* 输入文本框 */
+.sou form input:nth-child(1) {
+    float: left;
+    width: 488px;
+    height: 32px;
+    border: 2px solid #9e3f3b;
+    border-right: none;
+    font-size: 12px;
+    text-indent: 18px;
+}
+
+
+.sou form input:nth-child(1):focus {
+    outline-width: 0px;
+}
+
+
+/* 相机 */
+.box .sou form .xiangji {
+    font-size: 23px;
+    position: absolute;
+    top: 8px;
+    right: 65px;
+}
+
+
+/* 提交按钮 */
+.sou form input:nth-child(3) {
+    width: 58px;
+    height: 34px;
+    border: none;
+    color: #fff;
+    background-color: #00000000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* 放大镜 */
+.sou form .sousuo {
+    display: block;
+    float: left;
+    width: 58px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    border: 1px solid #9e3f3b;
+    background-color: #e1251a;
+}
+
+
+
+/* 购物车区域 */
+.gouwuche {
+    float: left;
+    width: 130px;
+    height: 34px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin: 25px 30px 0px 18px;
+    position: relative;
+}
+
+.gouwuche a{
+    display: block;
+    line-height: 34px;
+    color: #e1251b;
+    text-indent: 50px;
+}
+
+
+/* 购物车图标 */
+.gouwuche .che {
+    font-size: 23px;
+    color: red;
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    z-index: 2;
+}
+
+
+/* 购物车上面的数字 */
+.gouwuche .shuzi {
+    display: block;
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 20px;
+    height: 12px;
+    line-height: 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    position: absolute;
+    top: 3px;
+    left: 25px;
+    z-index: 3;
+}
+
+
+/* 第二个横向区域 */
+.box .xiaozi {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 60px;
+    font-size: 12px;
+}
+
+.box .xiaozi a {
+    color: #999;
+    margin-right: 5px;
+}
+
+.box .xiaozi a:hover {
+    color: red;
+}
+
+.box .xiaozi a:first-child {
+    color: red;
+}
+
+
+
+/* 第三个横向区域 */
+.box .dazi {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.box .dazi a {
+    color: #000;
+    margin-right: 15px;
+}
+
+.box .dazi a:hover {
+    color: red;
+}
+
+.box .dazi a:last-child {
+    margin-right: 0px;
+}

@@ -1,0 +1,146 @@
+.box{
+    width: 1190px;
+    height: 33px;
+    border-bottom: 2px solid #fe552e;
+    margin: 50px auto 0px;
+}
+
+
+/* 一级布局 */
+.box ul li{
+    height: 33px;
+    line-height: 32px;
+    float: left;
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+}
+
+.box ul li a{
+    color: #ff542e;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box ul li i{
+    width: 9px;
+    height: 6px;
+    display: block;
+    background: url(../img/minico.png) no-repeat 0px -6px;
+    position: absolute;
+    top: 13px;
+    right: 3px;
+}
+
+.box ul li:hover i{
+    background: url(../img/minico.png) no-repeat -20px -6px;
+}
+/* 二级隐藏显示 */
+.box ul li div{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #fe552e;
+    top: 32px;
+    left: -1px;
+}
+.box ul li:hover div{
+    display: block;
+}
+
+
+/* 首页 */
+.box ul li:first-child{
+    height: 34px;
+    line-height: 34px;
+    background-color: #fe552e;
+    width: 102px;
+    border-radius: 3px;
+}
+
+.box ul li:first-child a{
+    color: #fff6ff;
+}
+
+/* 58app */
+.box ul li:nth-child(2){
+    width: 120px;
+}
+.box ul li:nth-child(2):hover{
+    width: 120px;
+}
+
+
+.box ul .a1 span{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    background: url(../img/app.gif);
+}
+
+/* 58app框 */
+.box ul li:nth-child(2) div:last-child{
+    width: 258px;
+    height: 194px;
+}
+
+/* 商家app */
+.box ul li:nth-child(3) div:last-child{
+    width: 304px;
+    height: 254px;
+}
+
+/* 58公众号 */
+.box ul li:nth-child(4) div:last-child{
+    width: 259px;
+    height: 374px;
+}
+
+/* 小程序 */
+.box ul li:nth-child(5) div:last-child{
+    width: 309px;
+    height: 494px;
+}
+
+
+
+
+/* 其他二级 */
+.box ul .a1{
+    width: 104px;
+    margin-left: 10px;
+    border: 1px solid #c26b5800;
+    border-bottom: none;
+}
+
+.box ul .a1:hover{
+    width: 104px;
+    border: 1px solid #fe552e;
+    border-bottom: none;
+}
+
+/* 填充 */
+.box ul .a2{
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+.box ul .a2:hover{
+    background-color: #fe552e;
+}
+.box ul .a2:hover a{
+    color: #fff;
+}
+
+
+/* 推广 */
+.box ul li:last-child{
+    float: right;
+    margin-right: 20px;
+}
+.box ul li:last-child a img{
+    margin-top: 3px;
+    width:  102px;
+}

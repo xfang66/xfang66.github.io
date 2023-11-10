@@ -1,0 +1,280 @@
+.head {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+    background-color: #e3e4e6;
+    border-bottom: 1px solid #ddd;
+}
+
+.head a {
+    color: #999;
+    display: block;
+}
+
+.box {
+    width: 1190px;
+    height: 30px;
+    margin: 0px auto;
+    /* background: #000; */
+}
+
+.box ol li {
+    height: 30px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+/* 分割项目 */
+.box ol .gang {
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 10px;
+}
+
+
+/* 白色补丁 */
+.box ol li div p {
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+
+
+/* 北京 */
+.box ol li:nth-child(1) {
+    width: 56px;
+    border: 1px solid #cccccc00;
+    border-bottom: none;
+    margin-right: 5px;
+}
+
+.box ol li:nth-child(1) span {
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    z-index: 3;
+}
+
+.box ol li:nth-child(1) a {
+    text-indent: 10px;
+}
+
+.box ol li:nth-child(1) div {
+    display: none;
+    background-color: #fff;
+    width: 320px;
+    height: 331px;
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    z-index: 4;
+    border: 1px solid #ccc;
+}
+
+.box ol li:nth-child(1) div p {
+    width: 56px;
+    top: -1px;
+    left: 0px;
+}
+
+
+.box ol li:nth-child(1):hover {
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+
+.box ol li:nth-child(1) a:hover {
+    color: red;
+}
+
+.box ol li:nth-child(1):hover div {
+    display: block;
+}
+
+/* 企业版 */
+.box ol li:nth-child(2) a:hover {
+    color: red;
+}
+
+.box ol li:nth-child(3) {
+    width: 300px;
+    height: 30px;
+}
+
+/* 登录 */
+.box ol li:nth-child(4) {
+    margin-right: 5px;
+}
+
+.box ol li:nth-child(4) a:hover {
+    color: red;
+}
+
+/* 注册 */
+.box ol li:nth-child(5) a {
+    color: red;
+}
+
+/* 订单 */
+.box ol li:nth-child(7) a:hover {
+    color: red;
+}
+
+/* 一级批量设置 */
+.box ol .yiji {
+    width: 75px;
+    height: 29px;
+    line-height: 29px;
+    text-align: left;
+    text-indent: 10px;
+    border: 1px solid #cccccc00;
+    border-bottom: none;
+}
+
+.box ol .yiji span {
+    font-size: 6px;
+    position: absolute;
+    top: 0px;
+    right: 6px;
+
+}
+
+.box ol .yiji div {
+    display: none;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    z-index: 4;
+    background-color: #fff;
+}
+
+.box ol .yiji:hover {
+    border: 1px solid #cccccc;
+    background-color: #fff;
+
+}
+
+.box ol .yiji:hover div {
+    display: block;
+}
+
+/* 我的京东 */
+.box ol li:nth-child(9) div {
+    width: 280px;
+    height: 230px;
+}
+
+.box ol li:nth-child(9) div p {
+    width: 75px;
+    top: -1px;
+    left: 0px;
+}
+
+.box ol li:nth-child(9) a {
+    display: inline;
+}
+
+.box ol li:nth-child(9) a:hover {
+    color: red;
+}
+
+/* 企业采购 */
+.box ol li:nth-child(11) a {
+    color: red;
+}
+
+.box ol li:nth-child(11) div {
+    width: 152px;
+    height: 164px;
+}
+
+.box ol li:nth-child(11) div p {
+    width: 75px;
+    top: -1px;
+    left: 0px;
+}
+
+/* 商家 */
+.box ol li:nth-child(13) div {
+    width: 170px;
+    height: 92px;
+    left: -96px;
+}
+
+.box ol li:nth-child(13) div p {
+    width: 75px;
+    top: -1px;
+    right: 0px;
+}
+
+.box ol li:nth-child(13) p:hover {
+    color: red;
+}
+
+/* 网站导航 */
+.box ol li:nth-child(15) div {
+    width: 1188px;
+    height: 155px;
+    left: -1030px;
+}
+
+.box ol li:nth-child(15) div p {
+    width: 75px;
+    top: -1px;
+    right: 84px;
+}
+
+.box ol li:nth-child(15) p:hover {
+    color: red;
+}
+
+/* 手机京东 */
+.box ol li:nth-child(17) {
+    width: 70px;
+}
+
+.box ol li:nth-child(17) div {
+    position: absolute;
+    width: 190px;
+    height: 504px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    top: 30px;
+    right: -5px;
+    display: none;
+    z-index: 4;
+}
+
+.box ol li:nth-child(17) div p {
+    width: 0px;
+    height: 0px;
+    border: 5px solid #e3e4e6;
+    border-bottom: 5px solid #ffffff;
+    position: absolute;
+    top: -9px;
+    right: 32px;
+}
+
+.box ol li:nth-child(17)>p:hover {
+    color: red;
+}
+
+.box ol li:nth-child(17):hover div {
+    display: block;
+}
+
+
+/* 无障碍 */
+.box ol li:nth-child(19) a:hover {
+    display: inline;
+    color: red;
+}
