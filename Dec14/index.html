@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{margin: 0;padding: 0;}
+        #box{
+            margin: 0px auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #box>div{
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+       
+
+        #box>div .picture{
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #box>div .picture::after{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 70%;
+                background: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 70%);
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        #box>div .picture img{ 
+            width: 100%;
+            float: left;
+            transition: all 0.5s;
+        }
+
+        #box>div .jieshao{
+            position: absolute;
+            z-index: 2;
+            bottom: -20px;
+            left: 30px;
+            padding-right: 30px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+
+        .jieshao p:nth-child(1){
+            color: #fff;
+            font-size: 0.91em;
+            line-height: 1.8em;
+        }
+
+        .jieshao p:nth-child(2){
+            color: #fff;
+            font-size: 1.2em;
+            line-height: 1.4em;
+            font-weight: bold;
+        }
+
+        .jieshao p:nth-child(3){
+            font-size: 0.875em;
+            line-height: 1.8em;
+            color: #ffffff70;
+            margin-bottom: 12px;
+        }
+
+        .jieshao p:nth-child(4){
+            font-size: 0.875em;
+            color: #fff;
+            line-height: 22px;
+            
+        }
+        @media screen and (min-width:991px) {
+            #box>div:hover .picture img{
+               
+                transform: scale(1.2,1.2);
+         
+            }
+
+            #box>div:hover .picture:after{
+                background: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 70%);
+            }
+
+            #box>div:hover .jieshao{
+                bottom: 20px;
+            }
+
+        }
+
+        @media screen and (max-width:990px){
+            #box>div{
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            }
+
+            #box>div:nth-child(2n){
+                padding-right: 7.5px;
+                margin-bottom: 15px;
+            }
+
+
+            #box>div:nth-child(3),#box>div:nth-child(5){
+                padding-left: 7.5px;
+                margin-bottom: 15px;
+            }
+
+
+            #box .twofang3 img{
+                width: 100%;
+            }
+
+            #box>div .jieshao{
+                width: 100%;
+                height: 85px;
+                position: relative;
+                float: left;
+                background-color: #f4f4f4;
+                left: 0px;
+                bottom: 0;
+
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+
+            .jieshao p:nth-child(1){
+            color: #666;
+            font-size: 0.875em;
+            }
+
+            .jieshao p:nth-child(2){
+            color: #333;
+            font-size: 1.1em;
+            font-weight: bold;
+            }
+            
+            .jieshao p:nth-child(3),.jieshao p:nth-child(4){
+                display: none;
+            }
+
+
+            #box>.fang .jieshao{
+                background-color: #ffffff00;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+
+            #box>.fang .jieshao p:nth-child(1){
+                color: #fff;
+            }
+
+            #box>.fang .jieshao p:nth-child(2){
+                font-size: 1.2em;
+                color: #fff;
+            }
+        }
+    </style>
+    <script src="js/script.js"></script>
+</head>
+<body onload="shiying()">
+    <div id="box" style="max-width: 1399px; min-width: 320px;">
+        <div class="fang">
+            <div class="picture">
+                <img src="img/image3.jpg" alt="">
+            </div>
+            <div class="jieshao">
+                <p>趋势洞察</p>
+                <p>创新再出发，5.5G筑基智能世界</p>
+                <p>5.5G提高宽带化、泛在化、绿色化和智能化能力</p>
+                <p>了解更多  》</p>
+            </div>
+        </div>
+        <div class="twofang3">
+            <div class="picture">
+                <img src="img/image4.jpg" alt="">
+            </div>
+            <div class="jieshao">
+                <p>成功故事</p>
+                <p>晋商银行：数字化转型步入快车道</p>
+                <p>云原生、分布式数据库等新技术加速核心应用架构转型</p>
+                <p>了解更多  》</p>
+            </div>
+        </div>
+        <div class="bie">
+            <div class="picture">
+                <img src="img/image5.jpg" alt="">
+            </div>
+            <div class="jieshao">
+                <p>成功故事</p>
+                <p>5G助力云南咖啡香飘出大山</p>
+                <p>数字技术大幅提升云南咖啡的品质和竞争力</p>
+                <p>了解更多  》</p>
+            </div>
+        </div>
+        <div class="bie">
+            <div class="picture">
+                <img src="img/image6.jpg" alt="">
+            </div>
+            <div class="jieshao">
+                <p>出版物</p>
+                <p>《金融电子化》数智金融特刊</p>
+                <p>智领睿变，共建数智金融未来</p>
+                <p>了解更多  》</p>
+            </div>
+        </div>
+        <div class="bie">
+            <div class="picture">
+                <img src="img/image7.jpg" alt="">
+            </div>
+            <div class="jieshao">
+                <p>出版物</p>
+                <p>《CLOUD 云+》应用现代化特辑</p>
+                <p>成就高质量增长的现代化企业</p>
+                <p>了解更多  》</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
